@@ -1,5 +1,5 @@
 node {
-def msbuild = tool name: 'MSBuild', type: 'hudson.plugins.msbuild.MsBuildInstallation'
+//def msbuild = tool name: 'MSBuild', type: 'hudson.plugins.msbuild.MsBuildInstallation'
 
 	stage ('Checkout'){
 				checkout scm
