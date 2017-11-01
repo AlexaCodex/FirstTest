@@ -4,9 +4,9 @@ def msbuild = tool name: 'MSBuild', type: 'hudson.plugins.msbuild.MsBuildInstall
 	stage ('Checkout'){
 				checkout scm
 			}
-	stage('Build') {
-				bat "${msbuild} FirstTest.sln"
-			}
+	//stage('Build') {
+	//			bat "${msbuild} FirstTest.sln"
+	//			}
 }
 
 input message: "Does staging look good?"
